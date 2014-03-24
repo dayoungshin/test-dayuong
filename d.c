@@ -1,3 +1,6 @@
+<html>
+<body>
+
 #include <stdio.h>
 #include <unistd.h>
 #include <pthread.h>
@@ -191,4 +194,6 @@ void *matrixMult(void*data)
 
 	fclose(fp1);   //close file c.mat
 	pthread_mutex_unlock(&mutx);
-}	
+}
+</body>
+</html>
